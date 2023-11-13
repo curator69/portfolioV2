@@ -32,6 +32,8 @@ import {
   tailwindcss,
   threads,
   typescript,
+  vuejs,
+  nuxtjs,
 } from "../assets/icons";
 
 export const skills = [
@@ -113,6 +115,16 @@ export const skills = [
   {
     imageUrl: typescript,
     name: "TypeScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: vuejs,
+    name: "VueJs",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nuxtjs,
+    name: "NuxtJs",
     type: "Frontend",
   },
 ];
