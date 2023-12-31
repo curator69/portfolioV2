@@ -22,9 +22,9 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Frontend Developer based in India, specializing frontend
-          development (currently learning backend too) with a keen interest in the
-          latest technologies.
+          Frontend Developer based in India, specializing frontend development
+          (currently learning backend too) with a keen interest in the latest
+          technologies.
         </p>
       </div>
 
@@ -40,6 +40,7 @@ const About = () => {
                   src={skill.imageUrl}
                   alt={skill.name}
                   className="w-1/2 h-1/2 object-contain"
+                  title={skill.name}
                 />
               </div>
             </div>
@@ -58,7 +59,7 @@ const About = () => {
 
         <div className="mt-12 flex">
           <VerticalTimeline>
-            {experiences.map((experience, index) => (
+            {[...experiences].reverse().map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}

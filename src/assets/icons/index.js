@@ -28,6 +28,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import vuejs from "./vuejs.svg";
 import nuxtjs from "./nuxtjs.svg";
+import evently from "./evently.svg";
 
 export {
   css,
@@ -60,4 +61,5 @@ export {
   soundoff,
   vuejs,
   nuxtjs,
+  evently,
 };

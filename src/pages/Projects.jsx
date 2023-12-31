@@ -5,6 +5,7 @@ import { projects } from "../constants";
 import { arrow } from "../assets/icons";
 
 const Projects = () => {
+  console.log(projects);
   return (
     <section className="max-container">
       <h1 className="head-text">

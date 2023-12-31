@@ -34,6 +34,7 @@ import {
   typescript,
   vuejs,
   nuxtjs,
+  evently,
 } from "../assets/icons";
 
 export const skills = [
@@ -242,5 +243,13 @@ export const projects = [
     description: "",
     demo_link: "https://curator69.github.io/space-travel-site/",
     github_link: "https://github.com/curator69/space-travel-site",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-red",
+    name: "Evently",
+    description: "",
+    demo_link: "https://evently-livid.vercel.app/",
+    github_link: "https://github.com/curator69/evently",
   },
 ];
